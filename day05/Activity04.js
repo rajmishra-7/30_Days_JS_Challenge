@@ -9,9 +9,10 @@ console.log(getProduct(2,5));
 console.log(getProduct(5));
 
 //Task2
-function greet(pName, pAge) {
+function greet(pName, pAge = 40) {
     console.log(`Hello ${pName}. ${pAge}`);
     
 }
 
 greet("Dhoni", "43");
+greet("Kohli");
