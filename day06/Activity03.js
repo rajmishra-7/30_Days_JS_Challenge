@@ -19,4 +19,8 @@ console.log(result);
 
 //reduce - sum of all elements
 
-result = arr.reduce()
+let sum = 0;
+
+result = arr.reduce((sum,element)=> sum + element);
+
+console.log(result);
