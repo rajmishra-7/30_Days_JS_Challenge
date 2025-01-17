@@ -6,13 +6,13 @@ const book = {
     author : 'J.K. Rowling',
     year : '2002',
     getTitleAndAuthorDetails() {
-        return (`title : ${this.title} \nauthor : ${this.author}`);
+        return (`title : ${book.title} \nauthor : ${book.author}`);
     },
 
     //task 2
     setBookYear(newyear) {
-        this.year = newyear;
-        return this;
+        book.year = newyear;
+        return book;
     }
 }
 
