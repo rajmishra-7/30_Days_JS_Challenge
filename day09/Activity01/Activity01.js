@@ -4,8 +4,10 @@ heading.textContent = "Hello Finishers!";
 
 const [divElement,] = document.getElementsByClassName("div");
 
-divElement.style.backgroundColor = "blue";
-divElement.style.color = "white";
+setTimeout(()=>{
+    divElement.style.backgroundColor = "blue";
+    divElement.style.color = "white";
+},3000);
 
 
 
