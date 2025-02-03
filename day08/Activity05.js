@@ -14,3 +14,15 @@ const person = {
 console.log(person);
 
 //task2
+const keyName = "key";
+let i = 0;
+const computedPropertyDemo = {
+    [keyName + ++i] : 'AAA',
+    [keyName + ++i] : 'BBB',
+    [keyName + ++i] : 'CCC'
+};
+
+console.log(computedPropertyDemo);
+console.log(computedPropertyDemo.key1);
+console.log(computedPropertyDemo.key2);
+console.log(computedPropertyDemo.key3);
